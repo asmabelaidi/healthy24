@@ -389,7 +389,7 @@ nav a {
   text-align: left;
   font-family: Poppins;
   font-size: 1.5rem;
-  color: #005ea3;
+  /* color: #005ea3; */
   position: absolute;
   top: 2.5px;
   left: 0;
@@ -403,6 +403,11 @@ nav a {
   top: -0.8rem;
   right: -3rem;
   z-index: -1;
+}
+.brand-text-icon {
+  position: absolute;
+  top: -0.9rem;
+  right: -1.4rem;
 }
 .hospital-card {
   border: none;

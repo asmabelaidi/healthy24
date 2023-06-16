@@ -8,7 +8,7 @@ body {
   font-size: 16px;
 }
 
-.brand-name {
+/* .brand-name {
   font-size: 1.50rem;
   width: 8.56rem;
   height: 2.25rem;
@@ -16,7 +16,7 @@ body {
   border-width: 0.06rem;
   gap: 18.63rem;
   color: #005EA3;
-}
+} */
 
 .brand-name {
   color: #005EA3 !important;
@@ -31,7 +31,19 @@ body {
   margin-left: 6.1rem;
   margin-right: 8.6rem;
 }
-
+.white-brand-name {
+  color: #ffff !important;
+  font-size: 1.50rem;
+  width: 8.56rem;
+  height: 2.25rem;
+  font-family: Poppins;
+  vertical-align: middle;
+  /* gap: 18.63rem;
+  text-align: left; */
+  font-weight: 600;
+  /* margin-left: 6.1rem;
+  margin-right: 8.6rem; */
+}
 #navcol-1 {
   font-size: 1.50rem;
   padding-top: 1.8rem;
@@ -119,6 +131,9 @@ nav-item {
 }
 
 .blue-bold {
+  position: relative;
+  word-break: keep-all;
+  white-space: nowrap;
   color: #0B65A7;
   font-weight: 600;
 }
@@ -248,12 +263,17 @@ nav-item {
   padding-right: 4rem;
 
 }
-
+.blue-color{
+  color: #005ea3;
+}
+.white-color{
+  color:#ffff
+}
 .filled-logo {
   width: 11.44rem;
   height: 4.38rem;
   border-width: 0.06rem;
-  color: #ffff;
+  color: #ffff !important;
   background-color: #005EA3;
   display: flex;
   align-items: center;
@@ -266,10 +286,10 @@ nav-item {
 }
 
 .filled-logo span {
-  /* padding-top: 4rem;
+  padding-top: 4rem;
    margin-bottom: 4rem;
    margin-right: 4rem;
-   margin-left: 4rem; */
+   margin-left: 4rem;
 
 }
 
@@ -284,7 +304,7 @@ why-choosing h1 {
   background-color: #005EA3;
   color: white;
   font-size: 2.00rem;
-  height: 16.06rem;
+  min-height: 16.06rem;
   border-width: 0.06rem;
   margin-top: 5rem;
 }
@@ -331,8 +351,8 @@ why-choosing h1 {
 .rating-sec .row div {
   width: 9.94rem;
   height: 3.31rem;
-  left: 52.94rem;
-  top: 127.25rem
+  /* left: 52.94rem;
+  top: 127.25rem */
 }
 
 .rated-number {
@@ -383,8 +403,10 @@ why-choosing h1 {
 
 .were-here-sec {
   background-color: #F4F7FA;
-  height: 53.875rem;
+  height: 51.875rem;
   /* margin-top: 5rem; */
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .were-here-title h2 {

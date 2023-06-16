@@ -1,3 +1,4 @@
+import BrandText from 'components/brand/text'
 import React from 'react'
 
 function About() {
@@ -5,7 +6,7 @@ function About() {
     <div className="container">
     <div className="row pt-5">
         <div className="col-md-12 col-lg-9 about-healthy">
-            <h1>About <span className="blue-bold">Healthy 24.</span></h1>
+            <h1>About <BrandText /> </h1>
             <p>
                 With 24/7 access to online doctors, psychiatrists, psychologists, therapists and other medical
                 experts, care is always available, anytime and anywhere. Select and see your favorite providers
@@ -21,7 +22,7 @@ function About() {
             <div className="healthy-image-box">
                 <img src="/assets/images/about-image.png" className="about-img" />
                 <div className="filled-logo">
-                    <span>Health24</span>
+                    <span className='white-brand-name'>Health24</span>
                 </div>
             </div>
         </div>

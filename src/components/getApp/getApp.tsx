@@ -13,10 +13,10 @@ function GetApp() {
          <div className="col-sm-6 rating-sec">
             <div className="row">
                 <div className="col-3">
-                    <img className="img-fluid" src="/assets/images/App Store Logo.png" />
+                    <img className="responsive" src="/assets/images/App Store Logo.png" />
                 </div>
                 <div className="col-3">
-                    <img className="img-fluid" src="/assets/images/Google Play Logo.png" />
+                    <img className="responsive" src="/assets/images/Google Play Logo.png" />
                     <div className="row rating-info">
                         <div className="col-sm-2">
                             <p className="rated-number">4.9</p>

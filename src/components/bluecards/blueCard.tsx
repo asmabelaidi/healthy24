@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 function BlueCard(props: {border: string, active: boolean, content: string, img: string} ) {
 

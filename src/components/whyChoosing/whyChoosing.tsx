@@ -1,3 +1,4 @@
+import BrandText from 'components/brand/text'
 import React from 'react'
 
 function WhyChoosing() {
@@ -8,7 +9,7 @@ function WhyChoosing() {
             <img className="img-fluid" src="/assets/images/sec-3.png" />
         </div>
         <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 why-choosing">
-            <h1>Why choosing <span className="blue-bold">Healthy 24.</span></h1>
+            <h1>Why choosing <BrandText /></h1>
             <p>
                 With 24/7 access to online doctors, psychiatrists, psychologists, therapists and other medical
                 experts, care is always available, anytime and anywhere. Select and see your favorite providers
