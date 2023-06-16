@@ -403,7 +403,7 @@ why-choosing h1 {
 
 .were-here-sec {
   background-color: #F4F7FA;
-  height: 51.875rem;
+  min-height: 51.875rem;
   /* margin-top: 5rem; */
   padding-top: 4rem;
   padding-bottom: 4rem;
