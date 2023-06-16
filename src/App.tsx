@@ -9,6 +9,8 @@ import GetApp from 'components/getApp/getApp';
 import FindDoctors from 'components/findDoctors/findDoctors';
 import WereHere from 'components/wereHere/wereHere';
 import NearestHospitals from 'components/nearestHospitals/nearestHospitals';
+import Testimonial from 'components/testimonial/testimonial';
+
 
 function App() {
   return (
@@ -18,10 +20,11 @@ function App() {
         <BlueCardicons />
         <About />
         <WhyChoosing />
-        <GetApp />
+         <GetApp /> 
         <FindDoctors />
         <WereHere />
         <NearestHospitals />
+        <Testimonial />
 
     </div>
   );
