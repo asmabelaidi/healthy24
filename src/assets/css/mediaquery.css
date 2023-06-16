@@ -1,0 +1,107 @@
+@media (max-width: 640px) {
+  .nav-list-ul {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .brand-name {
+    font-size: 1.2rem;
+    margin-left: 0rem !important;
+    margin-right: 1rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-list-ul {
+    margin-left: 0rem;
+    width: 8rem;
+    font-size: 0.8rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-list-ul {
+    gap: 0.1rem !important;
+  }
+
+  .find-doctor {
+    margin-bottom: 5rem !important;
+  }
+
+  .healthy-image-box {
+    position: relative;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  .brand-icon {
+    position: absolute;
+    top: -1.2rem;
+    right: -4rem;
+    z-index: -1;
+  }
+}
+
+@media screen and (max-width: 992px) {
+
+  .why-choosing {
+    text-align: center;
+  }
+
+  .why-choosing-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-healthy {
+    text-align: center;
+  }
+
+  .about-healthy h1,
+  .about-healthy p {
+    width: unset !important;
+    /* height: 6.5rem !important; */
+    /* padding: 0.5rem !important;
+    height: unset !important; */
+  }
+
+
+
+  .healthy-image-box {
+    position: relative;
+    width: max-content;
+    margin-left: auto;
+    margin-right: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  .find-doctor-container {
+    /* height: 30rem; */
+    padding-bottom: 7rem;
+  }
+  
+  .overlay {
+    top: 3rem !important;
+  }
+
+  
+.brand-icon {
+  position: absolute;
+  top: -1rem;
+  right: -3.58rem;
+  z-index: -1;
+}
+  
+}
+
+.nav-link {
+  width: 6rem !important;
+}

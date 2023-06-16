@@ -1,24 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
+
+import Header from 'components/header/header';
 import './App.css';
+import Navbar from './components/navbar/navbar';
+import BlueCardicons from 'components/bluecards/blueCardIcons';
+import About from 'components/about/about';
+import WhyChoosing from 'components/whyChoosing/whyChoosing';
+import GetApp from 'components/getApp/getApp';
+import FindDoctors from 'components/findDoctors/findDoctors';
+import WereHere from 'components/wereHere/wereHere';
+import NearestHospitals from 'components/nearestHospitals/nearestHospitals';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Navbar />
+        <Header />
+        <BlueCardicons />
+        <About />
+        <WhyChoosing />
+        <GetApp />
+        <FindDoctors />
+        <WereHere />
+        <NearestHospitals />
+
     </div>
   );
 }

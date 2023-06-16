@@ -1,0 +1,17 @@
+@media only screen and (max-width: 1165px) {
+  .hospital-card .card-body .row .col {
+    width: 100% !important;
+    display: block !important;
+  }
+  .image-box {
+    max-width: unset !important;
+    margin-left: 0 !important;
+  }
+  .text-box {
+    margin-left: 0 !important;
+  }
+
+  .hospital-img {
+    max-width: 40rem !important;
+  }
+}
