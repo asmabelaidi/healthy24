@@ -12,10 +12,10 @@ function GetApp() {
         </div>
          <div className="col-sm-6 rating-sec">
             <div className="row">
-                <div className="col-3">
+                <div className="col-md-3" style={{marginLeft: '1rem'}}>
                     <img className="responsive" src="/assets/images/App Store Logo.png" />
                 </div>
-                <div className="col-3">
+                <div className="col-md-3" style={{marginLeft: '1rem'}}>
                     <img className="responsive" src="/assets/images/Google Play Logo.png" />
                     <div className="row rating-info">
                         <div className="col-sm-2">

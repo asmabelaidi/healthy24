@@ -1,9 +1,14 @@
-import React from 'react'
+import React, { ReactPropTypes } from 'react'
 
-export default function BrandText() {
+interface BrandTextProps {
+  style?: React.CSSProperties;
+  styleIcon?: React.CSSProperties;
+}
+
+export default function BrandText({ style, styleIcon }: BrandTextProps) {
   return (
-    <span className="blue-bold">Healthy 24.
-      <span className="brand-text-icon">
+    <span className="blue-bold" style={style}>Healthy 24.
+      <span className="brand-text-icon" style={styleIcon}>
         <img src="/assets/icons/orange-plus.png" />
       </span>
     </span>

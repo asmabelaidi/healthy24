@@ -24,7 +24,13 @@
   .nav-list-ul {
     gap: 0.1rem !important;
   }
+/* 
+  position: absolute;
+  top: -1.3rem;
+  right: -5.9rem;
+}
 
+*/
   .find-doctor {
     margin-bottom: 5rem !important;
   }
