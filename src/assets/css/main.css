@@ -419,6 +419,7 @@ nav a {
 .hospital-card .card-body {
   margin-right: auto;
   margin-left: auto;
+  max-width: 100%;
 }
 
 .hospital-card .card-body .row {
@@ -428,7 +429,7 @@ nav a {
 
 .hospital-card .hospital-img {
   max-height: 25.3125rem;
-  max-width: 32.6875rem;
+  max-width: 100%;
   margin: 0;
   padding: 0;
   background: linear-gradient(41.64deg, rgba(64, 133, 247, 0.27) 25.39%, rgba(64, 133, 247, 0) 131.52%), 
@@ -518,7 +519,7 @@ height: 16px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  margin-left: 6.375rem;
+  margin-left: 0 !important;
 }
 
 .text-box .card {
@@ -575,7 +576,7 @@ height: 16px;
 
 .image-container {
   position: relative;
-  width: max-content;
+  width: 90%;
   height: 100%;
 }
 

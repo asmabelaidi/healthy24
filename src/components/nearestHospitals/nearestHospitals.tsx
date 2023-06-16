@@ -7,7 +7,7 @@ function NearestHospitals() {
     <div className="card hospital-card">
       <div className="card-body">
         <div className="row">
-          <div className="image-box col">
+          <div className="image-box col-md-6">
             <div className="image-container">
             <img className="hospital-img" src="/assets/images/hospital-image.jpeg" alt="hospital" />
             <div className="evaluation">
@@ -31,7 +31,7 @@ function NearestHospitals() {
             </div>
             </div>
           </div>
-          <div className="text-box col">
+          <div className="text-box col-md-6">
             <div className="card">
               <div className="card-body">
                 <h5 className="card-title">Search the Nearest hospital from you</h5>
